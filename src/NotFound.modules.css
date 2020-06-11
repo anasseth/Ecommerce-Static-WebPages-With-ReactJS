@@ -1,0 +1,36 @@
+
+
+.NotFoundContent {
+    /* margin-top: 300px; */
+    width:100%;
+    /* padding: 75px; */
+    color: white;
+    text-align: center;
+}
+
+.thinNF {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.thickNF {
+    width: auto;
+    height: auto;
+    font-size: 80px;
+    font-weight: 600;
+    -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.VisitStoreButtonNF {
+    height: auto;
+    width: 200px;
+    color: white;
+    padding: 20px;
+    border: 1px solid transparent;
+    background-color: rgb(219, 13, 13);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    /* box-shadow: ; */
+}

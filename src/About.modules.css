@@ -1,0 +1,16 @@
+.AboutContent {
+    /* margin-top: 300px; */
+    font-size: 60px;
+    font-weight: 600;
+    padding: 100px;
+    color: white;
+    text-align: left;
+}
+.AboutThin {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 5px;
+}
+.ButtonAbout{
+    background-color: royalblue;
+}

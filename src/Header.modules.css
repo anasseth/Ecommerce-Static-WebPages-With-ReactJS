@@ -1,0 +1,93 @@
+.header {
+    margin-top:auto;
+    right: 0px;
+    position: fixed;
+    left: 0px;
+    /* background-color: #060419; */
+    background-color: BLACK;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    /* box-shadow: -1px 30px 21px -26px #bc599c; */
+    text-align: center;
+    transition-duration: 0.2s;
+    font-size: 15px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.header:Hover {
+    /* box-shadow: -1px 30px 21px -26px rgb(255, 2, 175); */
+   transition-duration: 0.2s;
+}
+
+.logo {
+    height: 50px;
+    margin-left:50px;
+    opacity: 0.9;
+ }
+
+.logoAdminStoreHeader {
+    margin-right: 40px;
+}
+
+.StoreTitleHeader {
+    color: deeppink;
+    font-size: 20px;
+    transition-duration: 0.7s;
+    margin-left:300px;
+    text-align: center;
+    /* margin-top: -50px; */
+    /* align-items: center; */
+}
+.AdminStoreTitleHeader {
+    color: white;
+    font-size: 20px;
+    transition-duration: 0.7s;
+}
+
+.StoreTitleHeader:hover {
+    color: deeppink;
+    transition-duration: 0.3s;
+    
+}
+
+.gadgets {
+    color: red
+}
+
+.guest {
+    /* float:right; */
+    color: lightgray;
+    /* background-image: linear-gradient(90deg, purple, #21AAC3); */
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    /* border: 2px solid white; */
+    padding-bottom: 7px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 40px;
+    transition-duration: 0.5s;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.guest:hover {
+    color: white;
+    transition-duration: 0.3s;
+    border-bottom: #bc599c 3px solid;
+}
+
+.Dp {
+    height: 40px;
+    margin-right: 20px;
+    border: 2px solid white;
+}
